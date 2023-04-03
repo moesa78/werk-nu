@@ -1,72 +1,74 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vacaturewebsite</title>
+    <title>Job Listing Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Vacaturewebsite</h1>
+            <h1>Job Listing Website</h1>
         </div>
     </header>
-
+    
     <nav>
-        <div class="container">
-            <a href="#">Home</a>
-            <a href="#">Voor werkzoekenden</a>
-            <a href="#">Voor werkgevers</a>
-            <a href="#">Contact</a>
-        </div>
+        <a href="#">Home</a>
+        <a href="#">Browse Jobs</a>
+        <a href="#">Post a Job</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
     </nav>
 
-    <section class="search-bar">
+    <div class="search-bar">
         <div class="container">
-            <form action="#">
-                <input type="text" placeholder="Zoek naar vacatures...">
-                <button type="submit">Zoeken</button>
+            <form>
+                <input type="text" placeholder="Search for jobs...">
+                <button type="submit">Search</button>
             </form>
         </div>
-    </section>
+    </div>
 
     <main>
         <div class="container">
-            <aside class="filters">
-                <h3>Filters</h3>
-                <h4>Locatie</h4>
+            <div class="filters">
+                <h3>Filter by</h3>
+                <h4>Industry</h4>
                 <ul>
-                    <li><a href="#">Amsterdam</a></li>
-                    <li><a href="#">Rotterdam</a></li>
-                    <li><a href="#">Utrecht</a></li>
-                    <li><a href="#">Den Haag</a></li>
+                    <li><a href="#">IT</a></li>
+                    <li><a href="#">Healthcare</a></li>
+                    <li><a href="#">Finance</a></li>
+                    <li><a href="#">Marketing</a></li>
+                    <li><a href="#">Retail</a></li>
                 </ul>
-                <h4>Soort dienstverband</h4>
+                <h4>Location</h4>
                 <ul>
-                    <li><a href="#">Fulltime</a></li>
-                    <li><a href="#">Parttime</a></li>
-                    <li><a href="#">Freelance</a></li>
-                    <li><a href="#">Stage</a></li>
+                    <li><a href="#">New York</a></li>
+                    <li><a href="#">Los Angeles</a></li>
+                    <li><a href="#">San Francisco</a></li>
+                    <li><a href="#">Chicago</a></li>
+                    <li><a href="#">Austin</a></li>
                 </ul>
-            </aside>
+            </div>
 
-            <section class="job-listings">
-                <h2>Vacatures</h2>
-                <!-- Voorbeeld van een vacature -->
-                <article class="job-listing">
-                    <h3>Software Engineer</h3>
-                    <p>Bedrijf X - Amsterdam</p>
-                    <p>Fulltime</p>
-                </article>
-                <!-- Voeg meer vacatures toe als gewenst -->
-            </section>
+            <div class="job-listings">
+                <h2>Job Listings</h2>
+                <!-- Example Job Listing -->
+                <div class="job-listing">
+                    <h3>Software Developer</h3>
+                    <p>Company XYZ - New York, NY</p>
+                    <p>Full-time, $80,000 - $120,000 per year</p>
+                </div>
+                <!-- Add more job listings here -->
+            </div>
         </div>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2023 Vacaturewebsite. Alle rechten voorbehouden.</p>
+            <p>&copy; 2023 Job Listing Website. All rights reserved.</p>
         </div>
     </footer>
 </body>
