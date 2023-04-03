@@ -1,0 +1,85 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header */
+header {
+    padding: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #333
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #0073e6;
+    transition: color 0.3s ease;
+}
+
+/* Search Bar */
+.search-bar {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.search-bar form {
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar input[type="text"] {
+    width: 70%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.search-bar button[type="submit"] {
+    width: 15%;
+    background-color: #0073e6;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 3px;
+}
